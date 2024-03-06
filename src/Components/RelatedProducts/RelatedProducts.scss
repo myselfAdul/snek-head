@@ -1,0 +1,27 @@
+.related-products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-family: Poppins;
+    h1{
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    hr{
+        width: 10%;
+        height: 3px;
+        background-color: orangered;
+        border-radius: 75px;
+        border: none;
+    }
+
+    .related-items{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 10px;
+        gap: 20px;
+        margin: 70px 0px;
+    }
+}
